@@ -8,6 +8,7 @@ import ProjectScope from '@/pages/ProjectScope';
 import Downloads from '@/pages/Download';
 import AboutUs from '@/pages/AboutUs';
 import ContactUs from '@/pages/ContactUs';
+import Header from '@/components/Header';
 
 export default function Navigation() {
   const [activeSection, setActiveSection] = useState('home');
@@ -84,6 +85,7 @@ export default function Navigation() {
           </div>
         </div>
       </nav>
+      {/* <Header/> */}
 
       {/* Page Content */}
       <main className="pt-16">
