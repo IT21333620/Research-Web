@@ -45,7 +45,7 @@ export default function ResearchObjectives() {
   ];
 
   return (
-    <div ref={cardRef} className="py-10 bg-gray-50 dark:bg-gray-900">
+    <div ref={cardRef} className="py-10 bg-gray-50 dark:bg-gray-900 rounded-xl">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100">Research Objectives</h2>

@@ -46,7 +46,7 @@ export default function ResearchProblem() {
   ];
 
   return (
-    <div ref={cardRef} className="py-10 bg-white dark:bg-gray-800">
+    <div ref={cardRef} className="py-10 bg-white dark:bg-gray-800 rounded-xl">
       <div className="text-center mb-10">
         <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100">Research Problem</h2>
         <p className="text-gray-600 dark:text-gray-400 mt-2">

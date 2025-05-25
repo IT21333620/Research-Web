@@ -23,7 +23,7 @@ export default function Methodology() {
   }, []);
 
   return (
-    <div ref={cardRef} className="py-10 bg-white dark:bg-gray-900">
+    <div ref={cardRef} className="py-10 bg-white dark:bg-gray-900 rounded-xl" >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 data-[visible='true']:opacity-100 data-[visible='false']:opacity-0 transition-opacity duration-500 data-observe">
           <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100">Methodology</h2>

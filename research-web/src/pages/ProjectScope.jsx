@@ -4,6 +4,7 @@ import ResearchGap from './project-scope/ResearchGap';
 import ResearchProblem from './project-scope/ResearchProblem';
 import ResearchObjectives from './project-scope/ResearchObjectives';
 import Methodology from './project-scope/Methodology';
+import TechnologiesUsed from './project-scope/TechnologiesUsed';
 
 export default function ProjectScope() {
   const sectionRef = useRef(null);
@@ -38,7 +39,11 @@ export default function ProjectScope() {
           <ResearchProblem/>
           <ResearchObjectives/>
           <Methodology/>
+          
         </div>
+      </div>
+       <div className="mt-10">
+        <TechnologiesUsed />
       </div>
     </section>
   );
