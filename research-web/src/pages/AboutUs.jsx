@@ -22,7 +22,7 @@ export default function AboutUs() {
       position: 'Group Member',
       affiliation: 'Sri Lanka Institute of Information Technology',
       email: 'kavijasapukotana@gmail.com',
-      image: '/Images/member3.jpg',
+      image: '/Images/member31.jpg',
     },
     {
       name: 'Kumarasiri S.A.P',
