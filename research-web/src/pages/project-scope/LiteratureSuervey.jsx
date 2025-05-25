@@ -23,13 +23,10 @@ export default function LiteratureSurvey() {
       ref={cardRef}
       className="bg-gradient-to-r from-blue-400 to-indigo-600 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-500 data-[visible='true']:opacity-100 data-[visible='false']:opacity-0 data-[visible='true']:translate-y-0 data-[visible='false']:translate-y-10 data-observe"
     >
-      <div className="flex items-center mb-4">
-        <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-4">
-          📊
-        </div>
-        <h3 className="text-2xl font-bold text-white">Literature Survey</h3>
+      <div className="flex items-center justify-center mb-6">
+        <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100 text-center">Literature Survey</h2>
       </div>
-      <div className="ml-16">
+      <div className="ml-5">
         <p className="text-gray-800 dark:text-gray-200 mb-4">
           The practice of psychotherapy has undergone considerable transformation in recent decades, evolving from 
           conventional face-to-face sessions to hybrid modalities, and more recently, to fully remote formats. This 
@@ -44,24 +41,28 @@ export default function LiteratureSurvey() {
           geographical boundaries has contributed to the widespread acceptance of distance therapy as a viable 
           alternative to traditional face-to-face models.
         </p>
-        <Image
-          src="/image/diagram1.png"
-          alt="Diagram 1: Psychotherapy Transition"
-          width={300}
-          height={200}
-          className="w-full h-auto rounded-lg mb-4"
-        />
+       <div className="flex justify-center mb-4">
+          <Image
+            src="/Images/diagram1.jpg"
+            alt="Diagram 1: Psychotherapy Transition"
+            width={480}
+            height={360}
+            className="rounded-lg"
+          />
+        </div>
         <p className="text-gray-800 dark:text-gray-200 mb-4">
           According to recent industry reports, the global online therapy market has witnessed unprecedented growth 
           since 2020 and is projected to continue expanding in the coming years.
         </p>
-        <Image
-          src="/image/diagram2.png"
-          alt="Diagram 2: Online Therapy Growth"
-          width={300}
-          height={200}
-          className="w-full h-auto rounded-lg mb-4"
-        />
+        <div className="flex justify-center mb-4">
+          <Image
+            src="/Images/diagram2.jpg"
+            alt="Diagram 2: Online Therapy Growth"
+            width={480}
+            height={360}
+            className="rounded-lg"
+          />
+        </div>
         <p className="text-gray-800 dark:text-gray-200 mb-4">
           Despite these notable benefits, distance therapy presents inherent challenges that compromise some of the 
           fundamental elements critical to effective therapeutic outcomes. Traditional in-person therapy sessions 

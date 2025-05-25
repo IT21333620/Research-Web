@@ -1,6 +1,9 @@
 import { useEffect, useRef } from 'react';
 import LiteratureSurvey from './project-scope/LiteratureSuervey';
 import ResearchGap from './project-scope/ResearchGap';
+import ResearchProblem from './project-scope/ResearchProblem';
+import ResearchObjectives from './project-scope/ResearchObjectives';
+import Methodology from './project-scope/Methodology';
 
 export default function ProjectScope() {
   const sectionRef = useRef(null);
@@ -32,6 +35,9 @@ export default function ProjectScope() {
         <div className="grid grid-cols-1 gap-8">
           <LiteratureSurvey />
           <ResearchGap/>
+          <ResearchProblem/>
+          <ResearchObjectives/>
+          <Methodology/>
         </div>
       </div>
     </section>

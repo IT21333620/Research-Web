@@ -8,7 +8,7 @@ export default function AboutUs() {
       position: 'Group Leader',
       affiliation: 'Sri Lanka Institute of Information Technology',
       email: 'shadhir03@gmail.com',
-      image: '/images/shadhir.jpg',
+      image: '/images/member1.jpg',
     },
     {
       name: 'Ahamed R.T',
@@ -29,7 +29,7 @@ export default function AboutUs() {
       position: 'Group Member',
       affiliation: 'Sri Lanka Institute of Information Technology',
       email: 'ashenpradeep001@gmail.com',
-      image: '/images/kumarasiri.jpg',
+      image: '/images/member4.jpg',
     },
     {
       name: 'Dr. Kapila Dissanayaka',
