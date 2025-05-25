@@ -7,6 +7,7 @@ import Milestones from '@/pages/MileStones';
 import ProjectScope from '@/pages/ProjectScope';
 import Downloads from '@/pages/Download';
 import AboutUs from '@/pages/AboutUs';
+import ContactUs from '@/pages/ContactUs';
 
 export default function Navigation() {
   const [activeSection, setActiveSection] = useState('home');
@@ -91,6 +92,7 @@ export default function Navigation() {
         <Milestones/>
         <Downloads/>
         <AboutUs/>
+        <ContactUs/>
       </main>
     </div>
   );

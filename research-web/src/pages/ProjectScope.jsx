@@ -28,7 +28,7 @@ export default function ProjectScope() {
   }, []);
 
   return (
-    <section id="project-scope" className="min-h-screen bg-white py-16" ref={sectionRef}>
+    <section id="project-scope" className="min-h-screen bg-white  py-16" ref={sectionRef}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl text-gray-800 text-center font-extrabold mb-8 animate-slide-in">
           Project Scope
