@@ -69,6 +69,9 @@ export default function Methodology() {
                 By leveraging advancements in computer vision and deep learning, this module aims to restore the depth of interaction that is otherwise lost in remote settings. The methodology for developing this module encompasses several critical stages, including data collection and preprocessing, model development, real-time emotional tracking, stress mapping, and therapist feedback visualization.
               </p>
             </div>
+            <div className="mt-4 text-sm text-gray-500 dark:text-gray-400 italic">
+          Contributed by: Shadhir A.M
+        </div>
           </details>
           <details className="group data-[visible='true']:opacity-100 data-[visible='false']:opacity-0 transition-opacity duration-500 data-observe">
             <summary className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-t-lg cursor-pointer">
@@ -97,6 +100,9 @@ export default function Methodology() {
                Integration of Voice & Facial Analysis – Combine SER and FER for a comprehensive emotional assessment, enhancing system accuracy by 10% or higher.
               </p>
             </div>
+             <div className="mt-4 text-sm text-gray-500 dark:text-gray-400 italic">
+          Contributed by: Ahamed R.T
+        </div>
           </details>
           <details className="group data-[visible='true']:opacity-100 data-[visible='false']:opacity-0 transition-opacity duration-500 data-observe">
             <summary className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-t-lg cursor-pointer">
@@ -130,6 +136,9 @@ export default function Methodology() {
                 Processed data and scheduling information are stored in a secure Database, which acts as the central repository for all patient records, stress scores, scheduled sessions, and therapist feedback. The database ensures high availability, integrity, and confidentiality of sensitive healthcare information.
               </p>
             </div>
+             <div className="mt-4 text-sm text-gray-500 dark:text-gray-400 italic">
+          Contributed by: Sapukotana K.R
+        </div>
           </details>
           <details className="group data-[visible='true']:opacity-100 data-[visible='false']:opacity-0 transition-opacity duration-500 data-observe">
             <summary className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-t-lg cursor-pointer">
@@ -158,6 +167,9 @@ export default function Methodology() {
                 In the feedback and intervention module, therapists access a web-based dashboard showing their assigned patients’ completion status and overall engagement. The system generates real-time alerts, enabling therapists to act promptly. Based on completion rates, therapists can assign new activities, issue warnings, or schedule urgent therapy sessions. The system is being implemented in three phases: first, creating the profiling and activity recommendation engine; second, developing and connecting the mobile app with potential IoT capabilities; and third, deploying the therapist dashboard with integrated feedback and intervention logic.
               </p>
             </div>
+             <div className="mt-4 text-sm text-gray-500 dark:text-gray-400 italic">
+          Contributed by: Kumarasiri S.A.P
+        </div>
           </details>
         </div>
         

@@ -113,22 +113,22 @@ export default function Downloads() {
         },
       ],
     },
-    {
-      title: 'Research Papers',
-      documents: [
-        {
-          name: 'Research Paper 1.pdf',
-          preview: '/Images/pdf-file.png',
-          file: 'https://mysliit-my.sharepoint.com/:b:/g/personal/it21333620_my_sliit_lk/EXYUVk4nKFtKsOt6vLoJNvcBYTKiF3FTdYdqaPvhkkHyGQ?e=TQYsRd',
-        },
-        {
-          name: 'Research Paper 2.pdf',
-          preview: '/Images/pdf-file.png',
-          file: 'https://mysliit-my.sharepoint.com/:b:/g/personal/it21333620_my_sliit_lk/EQDq4WmgrYxCiN9Z2OrT4JsB8kMwB8Y7qhGKSzEO_s0V0w?e=aGUs6o',
-        },
+    // {
+    //   title: 'Research Papers',
+    //   documents: [
+    //     {
+    //       name: 'Research Paper 1.pdf',
+    //       preview: '/Images/pdf-file.png',
+    //       file: 'https://mysliit-my.sharepoint.com/:b:/g/personal/it21333620_my_sliit_lk/EXYUVk4nKFtKsOt6vLoJNvcBYTKiF3FTdYdqaPvhkkHyGQ?e=TQYsRd',
+    //     },
+    //     {
+    //       name: 'Research Paper 2.pdf',
+    //       preview: '/Images/pdf-file.png',
+    //       file: 'https://mysliit-my.sharepoint.com/:b:/g/personal/it21333620_my_sliit_lk/EQDq4WmgrYxCiN9Z2OrT4JsB8kMwB8Y7qhGKSzEO_s0V0w?e=aGUs6o',
+    //     },
       
-      ],
-    },
+    //   ],
+    // },
   ];
 
   return (
